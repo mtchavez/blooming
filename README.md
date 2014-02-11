@@ -1,6 +1,6 @@
 # blooming
 
-Super basic interface for viewing []() filters and details.
+Super basic interface for viewing [bloomd](http://github.com/armon/bloomd) filters and details.
 
 ## Requirements
 
