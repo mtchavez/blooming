@@ -1,0 +1,21 @@
+{
+  "name": "blooming",
+  "version": "0.0.1",
+  "homepage": "https://github.com/mtchavez/blooming",
+  "authors": [
+    "Chavez <chavez@email.com>"
+  ],
+  "description": "Blooming deps",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "zepto": "~1.1.2"
+  }
+}
