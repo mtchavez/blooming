@@ -1,0 +1,33 @@
+<div class="row">
+
+  <div class="large-12 columns">
+    <h2>
+      <%= @server %>
+      &raquo;
+      <small><%= params[:host] %></small>
+    </h2>
+    <table style="width:100%">
+      <thead>
+        <tr>
+          <th style="width:40%">List</th>
+          <th class="ralign">Probability</th>
+          <th class="ralign">Size</th>
+          <th class="ralign">Capacity</th>
+          <th class="ralign">Items</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% @details.each do |attrs| %>
+          <tr>
+            <td style="width:40%"><%= attrs[:name] %></td>
+            <td class="ralign"><%= attrs[:probability] %>%</td>
+            <td class="ralign"><%= attrs[:size].to_human %></td>
+            <td class="ralign"><%= attrs[:capacity].to_human %></td>
+            <td class="ralign"><%= attrs[:items].to_s.reverse.gsub(/(\d{3})(?=\d)/, '\\1,').reverse %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+  </div>
+
+</div>

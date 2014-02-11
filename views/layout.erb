@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title>Blooming</title>
+    <meta content="Bloomd interface" name="description"/>
+    <link href="/css/normalize.css" media="screen" rel="stylesheet" />
+    <link href="/css/foundation.css" media="screen" rel="stylesheet" />
+    <link href="/css/blooming.css" media="screen" rel="stylesheet" />
+    <style type="text/css"></style>
+  </head>
+  <body>
+      <header>
+        <nav class="top-bar" data-topbar>
+          <ul class=title-area">
+            <li class="name">
+              <h1><a href="/">Blooming</a></h1>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <content>
+        <%= yield %>
+      </content>
+
+    <js>
+      <script src="/js/jquery/jquery.js"></script>
+      <script src="/js/foundation/foundation.js"></script>
+      <script src="/js/vendor/modernizr.js"></script>
+    </js>
+
+  </body>
+</html>
+
