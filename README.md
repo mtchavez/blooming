@@ -15,8 +15,8 @@ Super basic interface for viewing [bloomd](http://github.com/armon/bloomd) filte
 ## Running
 
 * `ruby server.rb` or `rackup`
+* Visit `localhost:4000`
 
 ## TODO
 
-* Sort table columns
-* Live stream graph of filter stats
+* Live stream graph of filter stats if useful.
