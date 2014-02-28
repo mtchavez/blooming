@@ -1,5 +1,5 @@
 # encoding: utf-8
-ruby '2.0.0'
+ruby '2.1.0'
 # ruby=2.0.0
 # ruby-gemset=blooming
 
