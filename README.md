@@ -15,7 +15,7 @@ Super basic interface for viewing [bloomd](http://github.com/armon/bloomd) filte
 ## Running
 
 * `ruby server.rb` or `rackup`
-* Visit `localhost:4000`
+* Visit `localhost:4567`
 
 ## TODO
 
