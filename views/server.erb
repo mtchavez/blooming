@@ -21,8 +21,8 @@
           <tr>
             <td style="width:40%"><%= attrs[:name] %></td>
             <td class="ralign"><%= attrs[:probability] %>%</td>
-            <td class="ralign"><%= attrs[:size].to_human %></td>
-            <td class="ralign"><%= attrs[:capacity].to_human %></td>
+            <td class="ralign" data-value="<%= attrs[:size] %>"><%= attrs[:size].to_human %></td>
+            <td class="ralign" data-value="<%= attrs[:capacity] %>"><%= attrs[:capacity].to_human %></td>
             <td class="ralign"><%= attrs[:items].to_s.reverse.gsub(/(\d{3})(?=\d)/, '\\1,').reverse %></td>
           </tr>
         <% end %>
